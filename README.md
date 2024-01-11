@@ -10,6 +10,6 @@ At the root folder, use the following command: `npm run start`.
 
 ## Example
 
-POST url -> `curl -X POST http://localhost:3000/v1/shorten -d '{"url": "https://youtube.com"}'`
-EXAMPLE POST RESPONSE -> `{"short_url":"localhost:3000/1hjsqqqdh","status":"success"}`
+POST url -> `curl -X POST http://localhost:3000/v1/shorten -d '{"url": "https://youtube.com"}'` <br>
+EXAMPLE POST RESPONSE -> `{"short_url":"localhost:3000/1hjsqqqdh","status":"success"}` <br>
 ACCESS `localhost:3000/1hjsqqqdh` -> GOES TO `https://youtube.com`
